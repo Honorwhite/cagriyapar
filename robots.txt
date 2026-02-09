@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drcagriyapar.com/sitemap.xml
