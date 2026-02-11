@@ -1297,3 +1297,7 @@ footer {
     text-decoration: none;
     color: inherit;
 }
+/* reCAPTCHA Badge Hiding */
+.grecaptcha-badge { 
+    visibility: hidden; 
+}

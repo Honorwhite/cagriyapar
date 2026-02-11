@@ -145,28 +145,49 @@
             </div>
 
             <div class="contact-form">
-                <h3>Bize Mesaj Gönderin</h3>
+                <h3>Ön Randevu Formu</h3>
                 <p style="margin-bottom: 30px;">Sorularınız için aşağıdaki formu doldurabilirsiniz. En kısa sürede dönüş
                     sağlayacağız.</p>
-                <form>
+                <form id="appointmentForm">
                     <div class="form-group">
                         <label>Ad Soyad</label>
-                        <input type="text" placeholder="Adınız ve Soyadınız" required>
+                        <input type="text" name="adSoyad" placeholder="Adınız ve Soyadınız" required>
                     </div>
                     <div class="form-group">
                         <label>Telefon</label>
-                        <input type="tel" placeholder="05XX XXX XX XX" required>
+                        <input type="tel" name="telefon" placeholder="05XX XXX XX XX" required>
+                    </div>
+                    <div class="form-group">
+                        <label>E-posta</label>
+                        <input type="email" name="email" placeholder="E-posta Adresiniz">
                     </div>
                     <div class="form-group">
                         <label>Konu</label>
-                        <input type="text" placeholder="İlgilendiğiniz Tedavi">
+                        <input type="text" name="konu" placeholder="İlgilendiğiniz Tedavi / Randevu Amacı">
+                    </div>
+                    <div class="form-group" id="tarihGroup">
+                        <label>Randevu Tarihi</label>
+                        <input type="date" name="tarih" required>
                     </div>
                     <div class="form-group">
                         <label>Mesajınız</label>
-                        <textarea rows="4" placeholder="Mesajınızı buraya yazın..."></textarea>
+                        <textarea name="mesaj" rows="4" placeholder="Mesajınızı buraya yazın..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Gönder
-                        <i class="fas fa-paper-plane"></i></button>
+                    <button type="submit" id="submitBtn" class="btn btn-primary"
+                        style="width: 100%; justify-content: center;">
+                        <span>Gönder</span>
+                        <i class="fas fa-paper-plane" style="margin-left: 10px;"></i>
+                    </button>
+                    <div id="formResponse"
+                        style="margin-top: 15px; padding: 10px; border-radius: 8px; display: none; text-align: center; font-weight: 600;">
+                    </div>
+                    <p style="font-size: 11px; color: #647463; text-align: center; margin-top: 15px; line-height: 1.2;">
+                        Bu site reCAPTCHA ile korunmaktadır. Google
+                        <a href="https://policies.google.com/privacy" target="_blank" style="color: inherit;">Gizlilik
+                            Politikası</a> ve
+                        <a href="https://policies.google.com/terms" target="_blank" style="color: inherit;">Hizmet
+                            Şartları</a> geçerlidir.
+                    </p>
                 </form>
             </div>
         </div>
@@ -250,7 +271,9 @@
     </footer>
 
 
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lejz2csAAAAAB5S4391S10BSzcZCSLkWqfGYtfb"></script>
     <script src="js/main.js"></script>
+    <script src="js/form-handler.js"></script>
 </body>
 
 </html>
