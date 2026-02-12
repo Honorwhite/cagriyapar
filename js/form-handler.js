@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtnText = submitBtn.querySelector('span');
 
     // API URL - Change this to your production API URL if different
-    const API_URL = 'https://randevu-backend-cagri.vercel.app/api/randevu'; // Example Vercel URL
+    const API_URL = 'http://cagrimail-t8rtd0-1a2008-37-60-238-85.traefik.me/api/randevu'; // Example Vercel URL
     // For local testing: const API_URL = 'http://localhost:3000/api/randevu';
 
     if (appointmentForm) {
