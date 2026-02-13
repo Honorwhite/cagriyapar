@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtnText = submitBtn.querySelector('span');
 
     // API URL - Change this to your production API URL if different
-    const API_URL = 'http://api.drcagriyapar.com/api/randevu'; // Example Vercel URL
+    const API_URL = 'https://api.drcagriyapar.com/api/randevu'; // Example Vercel URL
     // For local testing: const API_URL = 'http://localhost:3000/api/randevu';
 
     if (appointmentForm) {
