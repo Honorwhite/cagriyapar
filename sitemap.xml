@@ -2,67 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://drcagriyapar.com/</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/uzmanlik-alanlari</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/gebelik-takibi-adana</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/genital-estetik-adana</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://drcagriyapar.com/labioplasti-adana</loc>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/kadin-hastaliklari-adana</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/laparoskopik-cerrahi-adana</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/infertilite-tedavisi-adana</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/hakkimda</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/blog</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/blog-normal-dogumun-avantajlari</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/blog-gebelik-doneminde-beslenme</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://drcagriyapar.com/blog-genital-estetik-sss</loc>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/sikca-sorulan-sorular</loc>
-    <lastmod>2026-02-13</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://drcagriyapar.com/iletisim</loc>
-    <lastmod>2026-02-09</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
