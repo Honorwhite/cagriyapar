@@ -1,15 +1,13 @@
-Options +FollowSymLinks +MultiViews
+Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
-# Force removal of .html extension from URL if user manually types it
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
-RewriteRule ^ %1 [R=301,L]
+# 1. External Redirect: /page.html to /page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
 
-# MultiViews will handle the internal mapping of /page to /page.html automatically.
-# But we keep the explicit rewrite just in case MultiViews is not allowed.
-
+# 2. Internal Mapping: /page to /page.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [L]
+RewriteRule ^(.+)$ $1.html [L,QSA]
